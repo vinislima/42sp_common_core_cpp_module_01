@@ -5,15 +5,15 @@
 #                                                     +:+ +:+         +:+      #
 #    By: vinda-si <vinda-si@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/12/20 21:50:12 by vinda-si          #+#    #+#              #
-#    Updated: 2025/12/21 21:07:00 by vinda-si         ###   ########.fr        #
+#    Created: 2025/12/21 14:13:24 by vinda-si          #+#    #+#              #
+#    Updated: 2025/12/21 21:08:04 by vinda-si         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= brainz
+NAME		= moar_brainz
 CXX			= c++
 CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
-SRC			= main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SRC			= main.cpp Zombie.cpp zombieHorde.cpp
 OBJ			= $(SRC:.cpp=.o)
 
 all: $(NAME)
