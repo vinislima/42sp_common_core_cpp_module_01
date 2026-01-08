@@ -20,7 +20,7 @@ int main()
 	harl.complain("DEBUG");
 	std::cout << std::endl;
 
-	std::cout << "--- TEST 2: INFO---" << std::endl;
+	std::cout << "--- TEST 2: INFO ---" << std::endl;
 	harl.complain("INFO");
 	std::cout << std::endl;
 
